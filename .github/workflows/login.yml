@@ -70,7 +70,7 @@ jobs:
           fi
 
           # Crear archivo .env
-          echo "📑 Creando archivo .env en el servidor..."
+          echo "📑 Creando archivo .env en el servidor...."
           cat <<EOF > .env
           SQL_DB_HOST=${{ secrets.SQL_DB_HOST }}
           SQL_DB_PORT=${{ secrets.SQL_DB_PORT }}
